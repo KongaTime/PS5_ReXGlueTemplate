@@ -1,0 +1,5 @@
+Put the files from your own copy of the game in this folder.
+
+They come from the "game" folder of an EdgeOfTimeRecompiled install on a PC:
+copy everything inside that "game" folder into here. When you're done,
+Default.xex should be directly in this folder (gamedata/Default.xex).

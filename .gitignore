@@ -1,0 +1,8 @@
+build/
+dist/
+release/
+klog/
+.deps/
+__pycache__/
+# A game's home-screen art made from the game's own (tools/title-art.py)
+games/*/title-art/

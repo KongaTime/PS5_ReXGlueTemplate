@@ -1,0 +1,14 @@
+[
+ {
+  "id": "game",
+  "name": "EdgeOfTimeRecompiled (the PC recompilation, KongaTime/EdgeOfTimeRecomp with the PS5 branches), with plume (its renderer), XenosRecomp's shader runtime, zstd, SMOL-V and PKZLib",
+  "licence": "BSD-3-Clause (EdgeOfTimeRecompiled); MIT (plume, XenosRecomp); BSD-3-Clause (zstd); public domain or MIT (SMOL-V, stated in smolv.h); PKZLib states no licence",
+  "copyright": ["Copyright (c) 2026 goliath-tilers (EdgeOfTimeRecompiled)", "renderbag and contributors (plume)",
+                "hedge-dev and contributors (XenosRecomp)", "Meta Platforms, Inc. (zstd)", "Aras Pranckevicius (SMOL-V)"],
+  "repo": "EdgeOfTimeRecomp",
+  "texts": [["LICENSE", "LICENSE"]],
+  "submodule_texts": [["thirdparty/plume/LICENSE", "plume-LICENSE"],
+                      ["thirdparty/XenosRecomp/LICENSE.md", "XenosRecomp-LICENSE.md"],
+                      ["thirdparty/XenosRecomp/thirdparty/zstd/LICENSE", "zstd-LICENSE"]]
+ }
+]

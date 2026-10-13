@@ -1,0 +1,45 @@
+Spider-Man Edge Of Time for PS5 - {version}
+========================================
+
+You need:
+- a jailbroken PS5 with etaHEN, ShadowMountPlus and an FTP server
+  (for example ftpsrv on port 2121);
+- your own copy of the Xbox 360 game, installed on a PC with
+  EdgeOfTimeRecompiled: https://github.com/goliathret/EdgeOfTimeRecomp
+  (its README explains how to get the files from your Xbox 360).
+
+No game files are included. You must provide them from your own copy.
+
+1. Get the game files.
+   Install EdgeOfTimeRecompiled on your PC with your own copy of the game.
+   Its install folder then has a folder called "game".
+
+2. Put them in this download.
+   Copy everything inside that "game" folder into PPSA99300/gamedata/.
+   Default.xex must end up at PPSA99300/gamedata/Default.xex.
+
+3. Copy it to the PS5.
+   Copy the whole PPSA99300 folder to /data/homebrew/ on the PS5 over FTP,
+   so you have /data/homebrew/PPSA99300/eboot.bin.
+
+4. Play.
+   ShadowMountPlus adds "Spider-Man Edge Of Time" to the home screen about
+   30 seconds after the folder appears. Launch it from there.
+   The first few minutes can stutter while the PS5 prepares each effect the
+   first time it is used. That goes away.
+
+Saves and settings are in /data/homebrew/PPSA99300/profiles/. Back that
+folder up before you update or remove the game, and never delete the title
+from the home screen while its folder is still in /data/homebrew.
+
+Problems? The newest file in /data/homebrew/PPSA99300/logs/ and
+/data/homebrew/PPSA99300/reeot-test-results.txt say what went wrong.
+If reeot-test-results.txt says gamedata/Default.xex is missing, step 2 put
+the files one folder too deep.
+
+Updating: always replace eboot.bin and shader-cache.zst together.
+
+Source code and full credits:
+https://github.com/KongaTime/PS5_EdgeOfTimeTitle
+
+Unofficial fan project, not affiliated with Beenox, Activision or Marvel.
