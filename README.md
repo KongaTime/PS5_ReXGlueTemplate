@@ -95,10 +95,14 @@ tools/                  build, link, deploy, title art, release, the runtime bui
   by Graine25): the recompilation the worked example is built from.
 - **[Xenia](https://github.com/xenia-project/xenia):** the Xbox 360 work under all of
   this.
-- **[PS5 Vulkan Template](https://github.com/mihawk-99/PS5_VulkanTemplate)**
-  (mihawk-99): the platform layer, the link and the console tools this template
-  started from. With it: PS5_Vulkan, PS5_Mesa (Mesa's RADV) and the
-  [PS5 payload SDK](https://github.com/ps5-payload-dev/sdk).
+- **Mihawk ([mihawk-99](https://github.com/mihawk-99)):** Vulkan on the PS5.
+  - [PS5_Vulkan](https://github.com/mihawk-99/PS5_Vulkan) and the
+    [PS5_Mesa](https://github.com/mihawk-99/PS5_Mesa) fork bring Mesa's RADV driver to
+    the console.
+  - The [PS5 Vulkan Template](https://github.com/mihawk-99/PS5_VulkanTemplate) gave this
+    template its platform layer, link and console tools.
+  - The [payload SDK fork](https://github.com/mihawk-99/PS5_PayloadSDK) builds on the
+    [PS5 payload SDK](https://github.com/ps5-payload-dev/sdk).
 - **[etaHEN](https://github.com/etaHEN/etaHEN)** and
   **[ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus)** (drakmor).
 
