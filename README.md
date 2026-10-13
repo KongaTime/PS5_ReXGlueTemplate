@@ -39,6 +39,10 @@ DualSense through the console's own services.
 | Games with their own renderer (plume and XenosRecomp shaders, like Edge of Time) | yes: Edge of Time is playable from beginning to end |
 | Games on ReXGlue's emulated Xbox 360 GPU (most ReXGlue projects) | **not yet**: the runtime's emulated GPU still needs its PS5 changes (see PORTING.md) |
 
+The test app ran on a PS5 on 2026-10-13: a 3840x2160 window, the guest memory and the
+tone all passed, and it closed cleanly. Edge of Time built from this template has the
+same code as the released build.
+
 ## Quick start
 
 Check out the stack beside this repository and build it once:
